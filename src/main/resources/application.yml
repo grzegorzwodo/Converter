@@ -1,0 +1,6 @@
+nbp:
+  url: http://api.nbp.pl/api/exchangerates/tables/
+  currency:
+    tables: a,b
+  cron:
+    expression: 0 0 12 * * ?
